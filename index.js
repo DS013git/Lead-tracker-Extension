@@ -4,7 +4,7 @@ let inputBtn = document.getElementById("input-btn");
 const ulEl = document.getElementById("ul-el");
 let deleteBtn = document.getElementById("delete-btn");
 let tabBtn = document.getElementById("tab-btn");
-const leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
+const leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") );
 
 
 if(leadsFromLocalStorage){
@@ -45,3 +45,4 @@ inputBtn.addEventListener("click", function(){
 
         render(myLeads);
 });
+
